@@ -3,12 +3,11 @@ import java.util.Random;
 
 public class App {
     public static void main(String[] args) {
-
     }
 
     // Suma de dos números
     public static int suma(int a, int b) {
-        return 0;
+        return a+b;
     }
 
     // Resta de dos números
