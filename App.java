@@ -173,7 +173,12 @@ int count = 0;
     // Calcular la media de un array
     public static double mediaArray(int[] array) {
         int suma = sumarArray(array);
-        return (double) 3 /5;
+       if (array.length == 0) {
+            throw new IllegalArgumentException("El array está vacío.");
+        }
+        int suma = sumarArray(array);
+        return (double) suma / array.length;
+    
     }
 
     // Encontrar la mediana de un array
