@@ -91,7 +91,7 @@ public class App {
 
     // Convertir a minúsculas
     public static String convertirMinusculas(String cadena) {
-        return "c";
+        return cadena.toLowerCase();
     }
 
     // Revertir una cadena
