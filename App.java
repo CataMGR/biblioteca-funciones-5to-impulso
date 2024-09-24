@@ -76,7 +76,7 @@ public class App {
 
     // Longitud de una cadena
     public static int longitudCadena(String cadena) {
-        return 0;
+        return cadena.length();
     }
 
     // Concatenar dos cadenas
