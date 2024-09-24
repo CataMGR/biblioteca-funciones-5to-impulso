@@ -195,6 +195,15 @@ int count = 0;
 
     // Calcular la desviación estándar de un array
     public static double desviacionEstandarArray(int[] array) {
+         public static double desviacionEstandarArray(int[] array) {
+        double media = mediaArray(array);
+        double suma = 0;
+        for (int num : array) {
+            suma += Math.pow(num - media, 2);
+        }
+        return Math.sqrt(suma / array.length);
+    }
+
     }
 
     // Generar un array de números aleatorios
