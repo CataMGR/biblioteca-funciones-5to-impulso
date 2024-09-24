@@ -112,7 +112,8 @@ int count = 0;
 
     // Contar palabras en una cadena
     public static int contarPalabras(String cadena) {
-        return 5;
+   String[] palabras = cadena.trim().split("\\s+");
+        return (cadena.isEmpty()) ? 0 : palabras.length;
     }
 
     // Sumar elementos de un array
