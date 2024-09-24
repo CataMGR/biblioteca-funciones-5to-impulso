@@ -52,7 +52,7 @@ public class App {
     }
     // Número par
     public static boolean esPar(int n) {
-        return true;
+        return n % 2 == 0;
     }
 
     // Número impar
