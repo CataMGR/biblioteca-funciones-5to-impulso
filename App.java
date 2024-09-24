@@ -81,7 +81,7 @@ public class App {
 
     // Concatenar dos cadenas
     public static String concatenarCadenas(String cadena1, String cadena2) {
-        return "";
+        return cadena1 + cadena2;
     }
 
     // Convertir a mayúsculas
