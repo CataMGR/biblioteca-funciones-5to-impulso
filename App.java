@@ -159,7 +159,15 @@ int count = 0;
 
     // Invertir un array
     public static void invertirArray(int[] array) {
-      
+          int left = 0;
+        int right = array.length - 1;
+        while (left < right) {
+            int temp = array[left];
+            array[left] = array[right];
+            array[right] = temp;
+            left++;
+            right--;
+        }
     }
 
     // Calcular la media de un array
