@@ -7,17 +7,19 @@ public class App {
 
     // Suma de dos números
     public static int suma(int a, int b) {
-        a+b+suma;
+        a+b=suma;
         return a+b;
     }
 
     // Resta de dos números
     public static int resta(int a, int b) {
+        a-b=resta;
         return a-b;
     }
 
     // Multiplicación de dos números
     public static int multiplicacion(int a, int b) {
+        a*b=multiplicacion;
         return 0;
     }
 
