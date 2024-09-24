@@ -135,7 +135,8 @@ int count = 0;
     // Encontrar el mínimo en un array
     public static int minArray(int[] array) {
 
-        return 3;
+               return Arrays.stream(array).max().orElseThrow(() -> new IllegalArgumentException("El array está vacío."));
+
     }
 
     // Ordenar un array
