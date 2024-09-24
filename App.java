@@ -31,12 +31,13 @@ public class App {
 
     // Máximo de dos números
     public static int max(int a, int b) {
-        return 5;
+
+        return (a > b) ? a : b;
     }
 
     // Mínimo de dos números
     public static int min(int a, int b) {
-        return 3;
+        return (a < b) ? a : b;
     }
 
     // Factorial de un número
