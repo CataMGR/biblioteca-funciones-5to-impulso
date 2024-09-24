@@ -208,5 +208,11 @@ int count = 0;
 
     // Generar un array de números aleatorios
     public static int[] generarArrayAleatorio(int tamaño, int limite) {
+         Random random = new Random();
+        int[] array = new int[tamaño];
+        for (int i = 0; i < tamaño; i++) {
+            array[i] = random.nextInt(limite);
+        }
+        return array;
     }
-}
+
