@@ -25,6 +25,7 @@ public class App {
 
     // División de dos números
     public static double division(int a, int b) {
+        a/b=division;
         return (double) 2 / 2;
     }
 
