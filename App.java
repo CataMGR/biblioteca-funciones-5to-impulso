@@ -148,9 +148,14 @@ int count = 0;
 
     // Buscar un elemento en un array
     public static boolean buscarElemento(int[] array, int elemento) {
-    
+    for (int num : array) {
+            if (num == elemento) {
+                return true;
+            }
+        }
         return false;
     }
+
 
     // Invertir un array
     public static void invertirArray(int[] array) {
