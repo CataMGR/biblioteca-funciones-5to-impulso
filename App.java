@@ -141,7 +141,10 @@ int count = 0;
 
     // Ordenar un array
     public static void ordenarArray(int[] array) {
+                Arrays.sort(array);
+
     }
+
 
     // Buscar un elemento en un array
     public static boolean buscarElemento(int[] array, int elemento) {
