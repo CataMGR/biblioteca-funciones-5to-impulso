@@ -184,7 +184,14 @@ int count = 0;
     // Encontrar la mediana de un array
     public static double medianaArray(int[] array) {
         ordenarArray(array);
+           ordenarArray(array);
+        if (array.length % 2 == 0) {
+            return (array[array.length / 2 - 1] + array[array.length / 2]) / 2.0;
+        } else {
+            return array[array.length / 2];
+        }
     }
+    
 
     // Calcular la desviación estándar de un array
     public static double desviacionEstandarArray(int[] array) {
