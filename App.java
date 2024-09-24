@@ -96,7 +96,7 @@ public class App {
 
     // Revertir una cadena
     public static String revertirCadena(String cadena) {
-        return "";
+        return new StringBuilder(cadena).reverse().toString();
     }
 
     // Contar vocales en una cadena
